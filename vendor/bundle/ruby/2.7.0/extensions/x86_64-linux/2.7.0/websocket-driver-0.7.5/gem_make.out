@@ -1,0 +1,15 @@
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/home/prohackfr/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/prohackfr/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210916-14976-971owv.rb extconf.rb
+creating Makefile
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210916-14976-4vzubx

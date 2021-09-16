@@ -1,0 +1,16 @@
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+/home/prohackfr/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/prohackfr/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210916-14976-15dv4zc.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210916-14976-wpmas8/racc

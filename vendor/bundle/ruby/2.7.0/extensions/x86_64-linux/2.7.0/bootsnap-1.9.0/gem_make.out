@@ -1,0 +1,15 @@
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.0/ext/bootsnap
+/home/prohackfr/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/prohackfr/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210916-14976-b1kisj.rb extconf.rb
+creating Makefile
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210916-14976-mrkgxz/bootsnap

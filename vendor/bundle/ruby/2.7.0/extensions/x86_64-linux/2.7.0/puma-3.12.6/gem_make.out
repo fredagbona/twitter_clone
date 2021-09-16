@@ -1,0 +1,39 @@
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+/home/prohackfr/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/prohackfr/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210916-14976-6tc3og.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: In function ‘engine_init_client’:
+mini_ssl.c:220:3: warning: ‘DTLSv1_method’ is deprecated [-Wdeprecated-declarations]
+  220 |   conn->ctx = SSL_CTX_new(DTLSv1_method());
+      |   ^~~~
+In file included from /usr/include/openssl/e_os2.h:13,
+                 from /usr/include/openssl/bio.h:13,
+                 from mini_ssl.c:14:
+/usr/include/openssl/ssl.h:1895:1: note: declared here
+ 1895 | DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *DTLSv1_method(void)) /* DTLSv1.0 */
+      | ^~~~~~~~~~~~~~~~~~
+mini_ssl.c: In function ‘raise_error’:
+mini_ssl.c:250:6: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+  250 | void raise_error(SSL* ssl, int result) {
+      |      ^~~~~~~~~~~
+mini_ssl.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/prohackfr/workspace/Ruby/rails/twitter_clone/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20210916-14976-1265vaa/puma
