@@ -1,0 +1,12 @@
+<h3> Enregistrer ce tweet  ?</h3>
+
+<%= form_with(model: @post, url: posts_path(@post), local: true) do |form| %>
+  <%= form.hidden_field :name %>
+  <%= form.hidden_field :content %>
+  <p> Name : <%= @post.name %></p>
+  <p> Message : <%= @post.content %></p>
+
+  <%= form.submit  "Enregistrer", class: "btn btn-success" %>
+  <%= form.submit  "Retour", name: 'back', class: "btn btn-secondary" %>
+<% end %>
+

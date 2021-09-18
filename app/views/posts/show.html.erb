@@ -1,0 +1,28 @@
+<%= render 'partials/head' %>
+
+<h1 class="text-center">Contenu du Tweet</h1>
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col">
+        <table class="table table-striped">
+
+            <tr>
+                <th> Name : </th>
+                <td> <%= @post.name %> </td>
+            </tr>
+        
+            <tr>
+                <th> Message : </th>
+                <td> <%= @post.content %> </td>
+            </tr>
+        
+            
+        </table>
+        <%= link_to 'Back', posts_path, class: "btn btn-secondary" %>
+    </div>
+    <div class="col-3"></div>
+</div>
+
+
+
