@@ -14,7 +14,7 @@ class PostsController < ApplicationController
           render :new
         else
           if @post.save
-            redirect_to posts_path, notice: "post Enregistré !"
+            redirect_to posts_path, notice: "Votre post a bien été  enregistré !"
           else 
             render :new 
           end
@@ -28,7 +28,7 @@ class PostsController < ApplicationController
     def update
         @post.update(post_params)
         if @post.update(post_params)
-          redirect_to posts_path, notice: "post modifié !"
+          redirect_to posts_path, notice: "Votre post a bien été  modifié !"
         else 
           render :edit  
         end
@@ -36,7 +36,7 @@ class PostsController < ApplicationController
 
     def destroy
         @post.destroy
-        redirect_to posts_path, notice: "post supprimé"
+        redirect_to posts_path, notice: "Votre post a bien été supprimé"
     end
 
     def confirm 
